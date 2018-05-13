@@ -1,3 +1,4 @@
 *.swp
+src/
 package-lock.json
 node_modules/
