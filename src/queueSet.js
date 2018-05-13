@@ -1,6 +1,6 @@
 /**
  * @file queue's set
- * @author houyu(houyu01@baidu.com)
+ * @author houyu(785798835@qq.com)
  */
 import Queue from './queue';
 
