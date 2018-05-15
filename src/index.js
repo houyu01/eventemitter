@@ -56,3 +56,5 @@ export default class Communicator {
         return true;
     }
 };
+
+export {QueueSet};
