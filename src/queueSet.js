@@ -27,8 +27,9 @@ export default class QueueSet {
 
     del(namespace, funcQuote) {
         if (namespace === '*') {
-            Object.keys(this.queueSet).forEach(queue => {
-                queue.del(funcQuote);
+            Object.keys(this.queueSet).forEach(queueName => {
+                const queue = this.queueSet[queueName].queue;
+                queue && queue.del(funcQuote);
             });
         }
         else {
